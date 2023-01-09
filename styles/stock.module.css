@@ -1,0 +1,21 @@
+.stock__location {
+    font-family: "M400";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #4d6077;
+    padding-top: 45px;
+    padding-bottom: 22px;
+}
+
+.stock {
+    padding-bottom: 90px;
+}
+
+.stock__title {
+    font-family: "M600";
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+    padding-bottom: 50px;
+}

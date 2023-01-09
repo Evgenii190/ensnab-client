@@ -1,0 +1,36 @@
+.discounts__link {
+    font-family: "M500";
+    font-size: 15px;
+    margin-bottom: 21px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #4d6077;
+    margin-top: 47px;
+}
+
+.discounts__title {
+    font-family: "M600";
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.discounts__items {
+    margin-bottom: 90px;
+}
+
+@media (max-width: 1270px) {
+    .discounts__wrap {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .discounts__title {
+        text-align: center;
+        font-size: 26px;
+    }
+}

@@ -1,26 +1,65 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "M400";
+    src: url("../public/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "M500";
+    src: url("../public/fonts/Mont-Regular.ttf");
+}
+
+@font-face {
+    font-family: "M600";
+    src: url("../public/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "M700";
+    src: url("../public/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "M800";
+    src: url("../public/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "R300";
+    src: url("../public/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "R500";
+    src: url("../public/fonts/Roboto-Medium.ttf");
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    pointer-events: none;
 }
